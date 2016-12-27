@@ -33,7 +33,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'appointment', component: AppointmentComponent },
       { path: 'contact-us', component: ContactUsComponent },
-      { path: 'services', loadChildren: 'services'}
+      { path: 'services', loadChildren: 'services'},
       { path: '**', component: ErrorComponent }
     ]),
     ServicesModule,
